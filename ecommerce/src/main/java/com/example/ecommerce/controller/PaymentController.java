@@ -18,7 +18,6 @@ public class PaymentController {
     public Payment processPayment(@RequestBody Payment payment) {
         return paymentService.processPayment(payment);
     }
-
     @GetMapping
     public List<Payment> getAllPayments() {
         return paymentService.getAllPayments();
