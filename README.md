@@ -32,7 +32,7 @@ This is a Spring Boot-based e-commerce API project. It provides a set of RESTful
 ### Payment Transactions
 - POST /payments - Process a payment
 
-## User Registration
+## User Registeration
 <img src="https://github.com/user-attachments/assets/d1d394a5-7f83-4679-b95a-6e774febd1f5" alt="User Registration" width="400"/>
 
 ## Product List Mock Datas
