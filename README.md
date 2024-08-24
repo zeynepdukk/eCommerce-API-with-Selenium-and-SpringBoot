@@ -20,14 +20,21 @@ This is a Spring Boot-based e-commerce API project. It provides a set of RESTful
 
 ## Endpoints
 ### Product Management
-- GET /api/products - Get all products
-- GET /api/products/{id} - Get product by ID
-- POST /api/products - Create a new product
-- PUT /api/products/{id} - Update product
-- DELETE /api/products/{id} - Delete product
+- GET /products/list - Get all products
+- GET /products/{id} - Get product by ID
+- POST /products/list - Create a new product
+- PUT /products/{id} - Update product
+- DELETE /products/{id} - Delete product
 ### User Management
-- POST /api/users/register - Register a new user
-- POST /api/users/login - Login user
-- GET /api/users/{id} - Get user profile
+- POST /users/register - Register a new user
+- POST /users/login - Login user
+- GET /users/{id} - Get user profile
 ### Payment Transactions
-- POST /api/payments - Process a payment
+- POST /payments - Process a payment
+
+## User Registeration
+<img src="https://github.com/user-attachments/assets/d1d394a5-7f83-4679-b95a-6e774febd1f5" alt="User Registration" width="400"/>
+
+## Product List Mock Datas
+<img src="https://github.com/user-attachments/assets/d7080611-8a42-40cf-bcae-2b07fd997735" alt="Product List Mock Datas" width="400"/>
+
