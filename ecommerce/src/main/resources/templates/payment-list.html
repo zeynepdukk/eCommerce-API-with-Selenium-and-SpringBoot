@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payments List</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    th, td {
+      padding: 8px 12px;
+      border: 1px solid #ddd;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+  </style>
+</head>
+<body>
+<h1>Payments</h1>
+
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>User ID</th>
+    <th>Amount</th>
+    <th>Status</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="payment : ${payments}">
+    <td th:text="${payment.id}"></td>
+    <td th:text="${payment.userId}"></td>
+    <td th:text="${payment.amount}"></td>
+    <td th:text="${payment.status}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
